@@ -1,0 +1,30 @@
+h1{
+    position: relative;
+    font-size: 100px;
+    text-align: center;
+    color:rgb(255, 0, 0);
+    align-content: center;
+}
+
+#display{
+    display: flex;
+    align-content: center;
+    size: cover;
+}
+
+body{
+    background-image: linear-gradient(to bottom, orange, white, green);
+    background-position: center;
+    background-size: cover;
+}
+
+html{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
